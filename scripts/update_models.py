@@ -128,8 +128,13 @@ def update_readme(models: list):
 
     content = README_FILE.read_text(encoding="utf-8")
 
-    # 날짜 기준 내림차순 정렬 (최신순)
-    sorted_models = sorted(models, key=lambda m: m.get("added_at", ""), reverse=True)
+    # 날짜 기준 내림차순 정렬 (최신순, 같은 날짜면 나중에 추가된 모델이 위로)
+    sorted_models = sorted(
+        enumerate(models),
+        key=lambda pair: (pair[1].get("added_at", ""), pair[0]),
+        reverse=True,
+    )
+    sorted_models = [m for _, m in sorted_models]
 
     # Models 테이블 생성
     table_lines = [

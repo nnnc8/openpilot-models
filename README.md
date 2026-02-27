@@ -12,8 +12,8 @@ Custom driving models for openpilot (carrot fork).
 
 | ID | Name | Size | Added |
 |----|------|------|-------|
-| Off policyv3 | Off policyv3 | 36.2MB | 2026-02-27 |
 | Off policyv4 | Off policyv4 | 37.2MB | 2026-02-27 |
+| Off policyv3 | Off policyv3 | 36.2MB | 2026-02-27 |
 | Off policyv2 | Off policyv2 | 46.4MB | 2026-02-21 |
 | Off policy | Off policy | 59.1MB | 2026-02-05 |
 | CD210 | CD210 | 58.1MB | 2026-02-01 |
@@ -22,17 +22,17 @@ Custom driving models for openpilot (carrot fork).
 | SC | SC | 57.4MB | 2026-01-09 |
 | WMIv9 | WMIv9 | 57.4MB | 2026-01-08 |
 | WMIv8 | WMIv8 | 57.4MB | 2026-01-04 |
-| MacroStiff | MacroStiff | 57.4MB | 2026-01-02 |
 | WMIv7 | WMIv7 | 57.4MB | 2026-01-02 |
+| MacroStiff | MacroStiff | 57.4MB | 2026-01-02 |
 | WMIv6 | WMIv6 | 57.4MB | 2025-12-31 |
 | WMIv5 | WMIv5 | 57.4MB | 2025-12-30 |
 | WMIv4 | WMIv4 | 57.4MB | 2025-12-24 |
 | Planplus | Planplus | 70.7MB | 2025-12-22 |
 | DTRv6 | DTRv6 | 59.0MB | 2025-12-21 |
 | WMIv3 | WMIv3 | 57.4MB | 2025-12-20 |
-| Neurips | Neurips | 57.4MB | 2025-12-19 |
-| WMIv2 | WMIv2 | 57.4MB | 2025-12-19 |
 | dark-souls-2 | Dark Souls 2 | 57.4MB | 2025-12-19 |
+| WMIv2 | WMIv2 | 57.4MB | 2025-12-19 |
+| Neurips | Neurips | 57.4MB | 2025-12-19 |
 | st | st | 59.6MB | 2025-11-20 |
 | CGWM | CGWM | 57.4MB | 2025-10-25 |
 | gWM | gWM | 57.4MB | 2025-10-22 |
