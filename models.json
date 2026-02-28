@@ -181,7 +181,7 @@
           "sha256": "3d0541e11efbe08c297e22956c7dc79a3288956e1b34125762655edf10b6c9c3"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 99,
       "added_at": "2026-02-27"
     },
     {
@@ -223,7 +223,7 @@
           "sha256": "3d0541e11efbe08c297e22956c7dc79a3288956e1b34125762655edf10b6c9c3"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 99,
       "added_at": "2026-02-28"
     },
     {
@@ -521,5 +521,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "BhezxfApkuirZNO0cur3xcWs1CMijZwPshEj9ScbzJ8S7PQWo5NpopK51Srvi1pDE9ZgYcAaXhutmClTem2OBw=="
+  "signature": "V+QVfBU0icZizjq6oVSjqKfnkm7eZNGDZDB3KtbKD0ysYUpZmzjAbVOKY0j05HFptcRzZNMvoObWsCHghAdmDg=="
 }
