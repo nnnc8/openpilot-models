@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-14T10:47:48+09:00",
+  "updated_at": "2026-03-14T11:17:44+09:00",
   "models": [
     {
       "id": "CD210",
@@ -266,6 +266,27 @@
         }
       },
       "minimum_selector_version": 3,
+      "added_at": "2026-03-14"
+    },
+    {
+      "id": "Off policyv8",
+      "name": "Off policyv8",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Off policyv8",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13393857,
+          "sha256": "7b19eda22b264130aaeea728c5a7344a2e62056ffc4400096dd4aec88111886f"
+        },
+        "driving_policy.onnx": {
+          "size": 9229013,
+          "sha256": "d43abecf1f13f2ac05fc7fc6723c582668a20254846e7e605911845d9a55ff4e"
+        },
+        "driving_vision.onnx": {
+          "size": 23266366,
+          "sha256": "f9d18514382eb768f56533c03f7a332ba0adf080869f64f1c3ebfd2b2a1f42a6"
+        }
+      },
+      "minimum_selector_version": 1,
       "added_at": "2026-03-14"
     },
     {
@@ -542,5 +563,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "TragpFrBK8CRqjQJl2CT4TgkfrNEKbZ7s+aATb3vLA9HzVbXBGmdZIZOkeF8euIEegeqK5PEzotxB1gLq21aBg=="
+  "signature": "Qn2QB8n0HCVidqvRcvdmdAJ/01e9Puy5WDvD5ljUnPhytYA/OpU65y1xeapsgO/yAwuv11JlMQvorrLzl+JeAQ=="
 }
