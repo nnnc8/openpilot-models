@@ -265,7 +265,7 @@
           "sha256": "f9d18514382eb768f56533c03f7a332ba0adf080869f64f1c3ebfd2b2a1f42a6"
         }
       },
-      "minimum_selector_version": 3,
+      "minimum_selector_version": 99,
       "added_at": "2026-03-14"
     },
     {
@@ -563,5 +563,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "Qn2QB8n0HCVidqvRcvdmdAJ/01e9Puy5WDvD5ljUnPhytYA/OpU65y1xeapsgO/yAwuv11JlMQvorrLzl+JeAQ=="
+  "signature": "4ogDqJ/l/GAgEsLlfzs/wVu2pieDeDA1bRpJCABWqiPlXC3x/3NoZuxdhMAliuZfzRv/BFw+ScFQtSSRBnp5BA=="
 }
