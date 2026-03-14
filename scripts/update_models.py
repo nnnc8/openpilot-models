@@ -109,7 +109,8 @@ def get_model_info(folder: Path, existing_models: dict) -> dict:
             minimum_selector_version = selector_ver + 1
             print(f"    [BLOCKED] 비호환 모델 - minimum_selector_version: {minimum_selector_version}")
         else:
-            minimum_selector_version = 1
+            selector_ver = int(os.environ.get("SELECTOR_VERSION", "1"))
+            minimum_selector_version = selector_ver
 
     return {
         "id": model_id,
