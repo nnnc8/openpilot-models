@@ -202,7 +202,7 @@
           "sha256": "3d0541e11efbe08c297e22956c7dc79a3288956e1b34125762655edf10b6c9c3"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 2,
       "added_at": "2026-02-27"
     },
     {
@@ -244,7 +244,7 @@
           "sha256": "61faacb1c1070145facd757855a843132bfcdf0a6d982d98f972049f1aa1202e"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 2,
       "added_at": "2026-02-28"
     },
     {
@@ -286,7 +286,7 @@
           "sha256": "f9d18514382eb768f56533c03f7a332ba0adf080869f64f1c3ebfd2b2a1f42a6"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 2,
       "added_at": "2026-03-14"
     },
     {
@@ -307,7 +307,7 @@
           "sha256": "f9d18514382eb768f56533c03f7a332ba0adf080869f64f1c3ebfd2b2a1f42a6"
         }
       },
-      "minimum_selector_version": 1,
+      "minimum_selector_version": 2,
       "added_at": "2026-03-14"
     },
     {
@@ -584,5 +584,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "QoPaGw47/AB8NANuhuek0/DMUJR3f3xh7fXuOEZb1eCiciJ92EqEgqAbexAW62/zSxC2r7J2eMQVN9hO27fUAw=="
+  "signature": "BQvz1BYTvaEWA99bIXhZJ6k8ToRMCCOYXeB7m/vOwhre/uf8EIbEjuvXns3It0+xGn/KhgcpbBmOXVBhOvcQCQ=="
 }
