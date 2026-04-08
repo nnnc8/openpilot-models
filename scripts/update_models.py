@@ -30,8 +30,8 @@ MODELS_JSON = ROOT_DIR / "models.json"
 README_FILE = ROOT_DIR / "README.md"
 GITHUB_BASE_URL = "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models"
 
-# 필수 파일 (폴더 유효성 검사용)
-REQUIRED_FILES = ["driving_policy.onnx", "driving_vision.onnx"]
+# 필수 파일 (폴더 유효성 검사용, | 로 대체 파일 지원)
+REQUIRED_FILES = ["driving_policy.onnx|driving_on_policy.onnx", "driving_vision.onnx"]
 
 # 제외 패턴 (파일명에 포함되면 등록 제외)
 EXCLUDE_PATTERNS = ["dmonitoring", "big"]
@@ -55,8 +55,11 @@ def scan_model_folders() -> list[Path]:
 
     for item in MODELS_DIR.iterdir():
         if item.is_dir():
-            # 필수 파일 체크
-            has_all_files = all((item / f).exists() for f in REQUIRED_FILES)
+            # 필수 파일 체크 (| 로 대체 파일 지원)
+            has_all_files = all(
+                any((item / alt.strip()).exists() for alt in req.split("|"))
+                for req in REQUIRED_FILES
+            )
             if has_all_files:
                 model_folders.append(item)
 
