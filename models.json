@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-08T18:31:01+09:00",
+  "updated_at": "2026-04-11T11:40:41+09:00",
   "models": [
     {
       "id": "CD210",
@@ -162,6 +162,27 @@
       },
       "minimum_selector_version": 1,
       "added_at": "2026-04-08"
+    },
+    {
+      "id": "OPv9",
+      "name": "OPv9",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/OPv9",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13393589,
+          "sha256": "a8a77e5d70724fe332dc4dd5111b5cf9845d2c97cacf87b24b352da1b224fd08"
+        },
+        "driving_on_policy.onnx": {
+          "size": 13022800,
+          "sha256": "1e0ee93c4275eb5893656e6e95b43cb580e2844c40cf9b9f57019376d808a205"
+        },
+        "driving_vision.onnx": {
+          "size": 23267519,
+          "sha256": "84f12bffd54334890b23a1f6a3293ea5443effd66e4ea387dbceaada4b7c0213"
+        }
+      },
+      "minimum_selector_version": 2,
+      "added_at": "2026-04-11"
     },
     {
       "id": "Off policy",
@@ -702,5 +723,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "j6mf99j2AoJ79Gf6i3RMhuq5pIYF/ALAgiOwvZWAVvhM8sLNzmIrxPptSvf34g5v6DoZ6sMIyBXCUl3x2XVaDw=="
+  "signature": "GssWJ3WZCDvKebGczZbkKa9ApdbPhWb5z/U6fEezyMPn9vO0o51m+g/TxhPS8dnhwmqnixFEeo0zOiD8/uhsDg=="
 }
