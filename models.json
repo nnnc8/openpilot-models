@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-11T11:40:41+09:00",
+  "updated_at": "2026-04-18T13:08:00+09:00",
   "models": [
     {
       "id": "CD210",
@@ -416,6 +416,27 @@
       "added_at": "2026-03-14"
     },
     {
+      "id": "Op Modelv10",
+      "name": "Op Modelv10",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Op Modelv10",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13369392,
+          "sha256": "0b2a8d066b9a052be42da8a1eef2298600894c6024231153e2b51e64cbffde11"
+        },
+        "driving_on_policy.onnx": {
+          "size": 12998228,
+          "sha256": "e2835a807dbfcbe78513aa99a53d6faff3bca904f499344c46db9daa62725d73"
+        },
+        "driving_vision.onnx": {
+          "size": 23209266,
+          "sha256": "9ba09cfe1fca1a862683bfe27e10f5071e394c14efb6882ea8297f38fe0d780e"
+        }
+      },
+      "minimum_selector_version": 2,
+      "added_at": "2026-04-18"
+    },
+    {
       "id": "POP",
       "name": "POP",
       "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/POP",
@@ -723,5 +744,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "GssWJ3WZCDvKebGczZbkKa9ApdbPhWb5z/U6fEezyMPn9vO0o51m+g/TxhPS8dnhwmqnixFEeo0zOiD8/uhsDg=="
+  "signature": "WosH7G6JEEO6+TdWaZmn9fVWV1/qvafZIgCEmm1gLUOE2SiHCf+vT9JFaOxqcfIHi/CPRnO/+f/2HUxekXQ0BA=="
 }
