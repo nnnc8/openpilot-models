@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-20T16:49:58+09:00",
+  "updated_at": "2026-04-20T16:52:57+09:00",
   "models": [
     {
       "id": "CD210",
@@ -140,7 +140,7 @@
         }
       },
       "minimum_selector_version": 1,
-      "added_at": "2026-04-10"
+      "added_at": "2026-04-18"
     },
     {
       "id": "OPv11",
@@ -161,7 +161,7 @@
         }
       },
       "minimum_selector_version": 1,
-      "added_at": "2026-04-10"
+      "added_at": "2026-04-18"
     },
     {
       "id": "OPv12",
@@ -182,7 +182,7 @@
         }
       },
       "minimum_selector_version": 1,
-      "added_at": "2026-04-10"
+      "added_at": "2026-04-20"
     },
     {
       "id": "OPv7",
@@ -786,5 +786,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "wwZh9sii25h0AA168FhTnDqK7xaBc0TqiqnAAUgkwum3F6QbcOgleqTN6MmImgQ0Ba1bQCQGUAZJ0hkF+ltPAQ=="
+  "signature": "o5b9XkK2ixRBXuOZVu2Ig25486xWalW9A+SseLhoyB8veN8Bdpr6ZydtsBzXSDVBmnRSEugFEf1ICARJ6YriCw=="
 }
