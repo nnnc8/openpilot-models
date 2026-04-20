@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-20T09:08:01+09:00",
+  "updated_at": "2026-04-20T16:49:58+09:00",
   "models": [
     {
       "id": "CD210",
@@ -120,6 +120,69 @@
       },
       "minimum_selector_version": 1,
       "added_at": "2025-10-10"
+    },
+    {
+      "id": "OPv10",
+      "name": "OPv10",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/OPv10",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13369392,
+          "sha256": "0b2a8d066b9a052be42da8a1eef2298600894c6024231153e2b51e64cbffde11"
+        },
+        "driving_on_policy.onnx": {
+          "size": 12998228,
+          "sha256": "e2835a807dbfcbe78513aa99a53d6faff3bca904f499344c46db9daa62725d73"
+        },
+        "driving_vision.onnx": {
+          "size": 23209266,
+          "sha256": "9ba09cfe1fca1a862683bfe27e10f5071e394c14efb6882ea8297f38fe0d780e"
+        }
+      },
+      "minimum_selector_version": 1,
+      "added_at": "2026-04-10"
+    },
+    {
+      "id": "OPv11",
+      "name": "OPv11",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/OPv11",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13369392,
+          "sha256": "0b2a8d066b9a052be42da8a1eef2298600894c6024231153e2b51e64cbffde11"
+        },
+        "driving_on_policy.onnx": {
+          "size": 12998228,
+          "sha256": "5103687d195df0df3a66cfd9d74722859de7711999a1f792eba8686775e99eb3"
+        },
+        "driving_vision.onnx": {
+          "size": 23209266,
+          "sha256": "9ba09cfe1fca1a862683bfe27e10f5071e394c14efb6882ea8297f38fe0d780e"
+        }
+      },
+      "minimum_selector_version": 1,
+      "added_at": "2026-04-10"
+    },
+    {
+      "id": "OPv12",
+      "name": "OPv12",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/OPv12",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13369388,
+          "sha256": "c7419d067d04bf24053583d4418a513d6481126cccbe079909bf771856e3a89c"
+        },
+        "driving_on_policy.onnx": {
+          "size": 12998228,
+          "sha256": "1918afb4d4750497e6bef3af53c2e97af5be7202570daaba1e701a04721ab497"
+        },
+        "driving_vision.onnx": {
+          "size": 23206682,
+          "sha256": "e8fa742462e2d846fbe02379f12c547919977760e52a6bbd350b7cfc33c89005"
+        }
+      },
+      "minimum_selector_version": 1,
+      "added_at": "2026-04-10"
     },
     {
       "id": "OPv7",
@@ -414,69 +477,6 @@
       },
       "minimum_selector_version": 2,
       "added_at": "2026-03-14"
-    },
-    {
-      "id": "Op Modelv10",
-      "name": "Op Modelv10",
-      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Op Modelv10",
-      "files": {
-        "driving_off_policy.onnx": {
-          "size": 13369392,
-          "sha256": "0b2a8d066b9a052be42da8a1eef2298600894c6024231153e2b51e64cbffde11"
-        },
-        "driving_on_policy.onnx": {
-          "size": 12998228,
-          "sha256": "e2835a807dbfcbe78513aa99a53d6faff3bca904f499344c46db9daa62725d73"
-        },
-        "driving_vision.onnx": {
-          "size": 23209266,
-          "sha256": "9ba09cfe1fca1a862683bfe27e10f5071e394c14efb6882ea8297f38fe0d780e"
-        }
-      },
-      "minimum_selector_version": 2,
-      "added_at": "2026-04-18"
-    },
-    {
-      "id": "Op Modelv11",
-      "name": "Op Modelv11",
-      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Op Modelv11",
-      "files": {
-        "driving_off_policy.onnx": {
-          "size": 13369392,
-          "sha256": "0b2a8d066b9a052be42da8a1eef2298600894c6024231153e2b51e64cbffde11"
-        },
-        "driving_on_policy.onnx": {
-          "size": 12998228,
-          "sha256": "5103687d195df0df3a66cfd9d74722859de7711999a1f792eba8686775e99eb3"
-        },
-        "driving_vision.onnx": {
-          "size": 23209266,
-          "sha256": "9ba09cfe1fca1a862683bfe27e10f5071e394c14efb6882ea8297f38fe0d780e"
-        }
-      },
-      "minimum_selector_version": 2,
-      "added_at": "2026-04-18"
-    },
-    {
-      "id": "Op Modelv12",
-      "name": "Op Modelv12",
-      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Op Modelv12",
-      "files": {
-        "driving_off_policy.onnx": {
-          "size": 13369388,
-          "sha256": "c7419d067d04bf24053583d4418a513d6481126cccbe079909bf771856e3a89c"
-        },
-        "driving_on_policy.onnx": {
-          "size": 12998228,
-          "sha256": "1918afb4d4750497e6bef3af53c2e97af5be7202570daaba1e701a04721ab497"
-        },
-        "driving_vision.onnx": {
-          "size": 23206682,
-          "sha256": "e8fa742462e2d846fbe02379f12c547919977760e52a6bbd350b7cfc33c89005"
-        }
-      },
-      "minimum_selector_version": 2,
-      "added_at": "2026-04-20"
     },
     {
       "id": "POP",
@@ -786,5 +786,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "FRwYIhaemRqD8STYqFdeGsvuwEkthaOsusRu+4gt7X5CSQIWRtyxvekkdtznTA6eCaWXSq95nXUHQLTWxmGUCg=="
+  "signature": "wwZh9sii25h0AA168FhTnDqK7xaBc0TqiqnAAUgkwum3F6QbcOgleqTN6MmImgQ0Ba1bQCQGUAZJ0hkF+ltPAQ=="
 }
