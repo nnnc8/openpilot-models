@@ -12,6 +12,7 @@ Custom driving models for openpilot (carrot fork).
 
 | ID | Name | Size | Added |
 |----|------|------|-------|
+| Play disengage chime when booting while engaged | Play disengage chime when booting while engaged | 48.5MB | 2026-05-05 |
 | Action grid | Action grid | 47.4MB | 2026-05-05 |
 | Acodonomo minimal | Acodonomo minimal | 55.9MB | 2026-05-05 |
 | OPv12 | OPv12 | 47.3MB | 2026-04-20 |
