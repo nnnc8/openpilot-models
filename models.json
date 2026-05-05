@@ -1,24 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-05-05T19:57:51+09:00",
+  "updated_at": "2026-04-20T16:52:57+09:00",
   "models": [
-    {
-      "id": "Acodonomo minimal",
-      "name": "Acodonomo minimal",
-      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Acodonomo minimal",
-      "files": {
-        "driving_policy.onnx": {
-          "size": 12343531,
-          "sha256": "5b7c686e13637733ec432d774ff5b665c4e4663982ff03deeefd6f6ffd511741"
-        },
-        "driving_vision.onnx": {
-          "size": 46271991,
-          "sha256": "befac016a247b7ad5dc5b55d339d127774ed7bd2b848f1583f72aa4caee37781"
-        }
-      },
-      "minimum_selector_version": 2,
-      "added_at": "2026-05-05"
-    },
     {
       "id": "CD210",
       "name": "CD210",
@@ -803,5 +786,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "q6LwBmTbIJDmG5yjpPMi+D5jXJJF2iwTZXduHYBIygETwGpV4vML5Z6tun9IUe/un4t4AylOl4K4LHn+KfnhBw=="
+  "signature": "o5b9XkK2ixRBXuOZVu2Ig25486xWalW9A+SseLhoyB8veN8Bdpr6ZydtsBzXSDVBmnRSEugFEf1ICARJ6YriCw=="
 }
