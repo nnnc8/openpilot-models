@@ -12,7 +12,6 @@ Custom driving models for openpilot (carrot fork).
 
 | ID | Name | Size | Added |
 |----|------|------|-------|
-| Action grid | Action grid | 47.4MB | 2026-05-05 |
 | Acodonomo minimal | Acodonomo minimal | 55.9MB | 2026-05-05 |
 | OPv12 | OPv12 | 47.3MB | 2026-04-20 |
 | OPv11 | OPv11 | 47.3MB | 2026-04-18 |
