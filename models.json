@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-05T19:57:51+09:00",
+  "updated_at": "2026-05-05T19:58:44+09:00",
   "models": [
     {
       "id": "Acodonomo minimal",
@@ -17,6 +17,27 @@
         }
       },
       "minimum_selector_version": 2,
+      "added_at": "2026-05-05"
+    },
+    {
+      "id": "Action grid",
+      "name": "Action grid",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Action grid",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 13394700,
+          "sha256": "477305c8381323bded6c841e19df0348f2a97bce1e9dd8c39b78f9990fd8579f"
+        },
+        "driving_on_policy.onnx": {
+          "size": 13022800,
+          "sha256": "559d2fadb7d0680407344828b99572d7dbd2dc39552ca07e05777c7308f887d1"
+        },
+        "driving_vision.onnx": {
+          "size": 23268723,
+          "sha256": "c90541bfdf1980de8e0b9e843eb00f42e9a63a2a33da24c38b8f9e245ea1bd9c"
+        }
+      },
+      "minimum_selector_version": 3,
       "added_at": "2026-05-05"
     },
     {
@@ -803,5 +824,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "q6LwBmTbIJDmG5yjpPMi+D5jXJJF2iwTZXduHYBIygETwGpV4vML5Z6tun9IUe/un4t4AylOl4K4LHn+KfnhBw=="
+  "signature": "NaCyV6/HCyMJZUWywiEgoWNAbJJqtzIdr4pmcXnBrJpgBiRb6LiW2yMsyPFJElCKiJ+ryaF7XCbubOryx5TkAQ=="
 }
