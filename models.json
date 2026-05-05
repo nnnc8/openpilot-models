@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-05T19:59:56+09:00",
+  "updated_at": "2026-05-05T19:58:44+09:00",
   "models": [
     {
       "id": "Acodonomo minimal",
@@ -568,23 +568,6 @@
       "added_at": "2025-12-22"
     },
     {
-      "id": "Play disengage chime when booting while engaged",
-      "name": "Play disengage chime when booting while engaged",
-      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/Play disengage chime when booting while engaged",
-      "files": {
-        "driving_policy.onnx": {
-          "size": 15966721,
-          "sha256": "98f0121ccb6f850077b04cc91bd33d370fc6cbdc2bd35f1ab55628a15a813f36"
-        },
-        "driving_vision.onnx": {
-          "size": 34882971,
-          "sha256": "897f80d0388250f99bba69b6a8434560cc0fd83157cbeb0bc134c67fe4e64624"
-        }
-      },
-      "minimum_selector_version": 3,
-      "added_at": "2026-05-05"
-    },
-    {
       "id": "SC",
       "name": "SC",
       "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/SC",
@@ -841,5 +824,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "VL6GiKGhJw5oKaIFGDIiw7LycOLx8DeJRtBeVBciq7gGmHPVBE0ZCumZektklDus2GFXjTnOo7gPXtfxIxGyCg=="
+  "signature": "NaCyV6/HCyMJZUWywiEgoWNAbJJqtzIdr4pmcXnBrJpgBiRb6LiW2yMsyPFJElCKiJ+ryaF7XCbubOryx5TkAQ=="
 }
