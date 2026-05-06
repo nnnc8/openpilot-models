@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-06T02:00:46+09:00",
+  "updated_at": "2026-05-06T11:29:38+09:00",
   "models": [
     {
       "id": "CD210",
@@ -810,6 +810,27 @@
       "added_at": "2026-05-06"
     },
     {
+      "id": "op11v3",
+      "name": "op11v3",
+      "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/op11v3",
+      "files": {
+        "driving_off_policy.onnx": {
+          "size": 18178659,
+          "sha256": "dff39ef4705f7dc092ea6a867d030c1092d40fa124f15c36ed01ee62877a1f21"
+        },
+        "driving_on_policy.onnx": {
+          "size": 16745129,
+          "sha256": "4e7e31a20e93c6e0fd37d29c339e6668a915e3550d971a17e6560b9227b7ffcd"
+        },
+        "driving_vision.onnx": {
+          "size": 23210375,
+          "sha256": "50070f898ad223475fced42d12a8e67e57e7fac7b21ddc26b05e64f1ae536880"
+        }
+      },
+      "minimum_selector_version": 3,
+      "added_at": "2026-05-06"
+    },
+    {
       "id": "st",
       "name": "st",
       "base_url": "https://raw.githubusercontent.com/happymaj11r/openpilot-models/main/models/st",
@@ -828,5 +849,5 @@
     }
   ],
   "key_id": "key_2025_01",
-  "signature": "sLqgAk24CScOrkt8dMcnhoAI3ZGsHsnjgb2dOoy0HbVa8yhkSze+/pnfF8QWzeR9IXu7J2oYI69LBtuSRGPtBg=="
+  "signature": "k9ycMVzBPC+Yf9rq99b23FqMdSZU1sPVeFBsoA7FoguAxGbHfRf4lxw9NbnR1XrIwGIMQ/IxgaAtqElSqHQwDQ=="
 }
